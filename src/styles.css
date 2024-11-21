@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(174, 66, 66);
+}
+input{
+    background-color:rgba(246, 152, 152, 0.652);
+}
+button{
+    background-color: brown;
+}

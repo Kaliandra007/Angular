@@ -1,0 +1,10 @@
+<!-- src/app/item-list/item-list.component.html -->
+<div>
+    <h2>Lista de Itens</h2>
+    <ul>
+      <li *ngFor="let item of items">{{ item }}</li>
+    </ul>
+    <input [(ngModel)]="newItem" placeholder="Novo Item" />
+    <button (click)="addItem()">Adicionar</button>
+  </div>
+  
